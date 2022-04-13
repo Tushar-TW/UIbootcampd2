@@ -1,0 +1,67 @@
+.heading {
+    position: relative;
+    background-color: black;
+    border: 1px solid black;
+    height: 100px;
+    color: aliceblue;
+    
+}
+.intro {
+    position: absolute;
+}
+.navbar {
+    
+    position: absolute;
+    right: 0px;
+    top:30px;
+    display: flex;
+    
+    
+}
+.links {
+    padding: 10px;
+}
+.body {
+    position: relative;
+    height:600px;
+    border: 1px solid black;
+}
+
+.article {
+    position: absolute;
+    border: 1px solid black;
+    right: 115px;
+}
+.aside {
+    border: 1px solid black;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: black;
+    color: aliceblue;
+}
+.card {
+    position: absolute;
+    border: 1px solid black;
+    bottom: 0px;
+    right: 115px;
+    left: 0px;
+    top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    
+}
+
+.carditem{
+    
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    
+}
+h4 {
+    background-color: black;
+    color: aliceblue;
+}
